@@ -10,8 +10,8 @@ body{
 header {
     display: flex;
     justify-content: space-between;
-    text-align: center;
     align-items: center;
+    text-align: center;
     padding: 10px 20px;
     background-color: #fff;
     width: 100%;
@@ -28,16 +28,18 @@ header {
 }
 .navbar .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
-    padding: 0 100px;
+    gap: 30px;
     list-style: none;
+    padding: 0px 50px;
 }
 .navbar .menu li a{
     text-decoration: none;
     font-weight: bold;
     color: #4ea142;
     font-size: 16px;
+    
     
 }
 section .main{
